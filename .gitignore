@@ -1,0 +1,31 @@
+# ===== Python 相关 =====
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ===== 虚拟环境（绝对不要提交到 GitHub）=====
+venv/
+env/
+.venv/
+.env/
+
+# ===== 敏感信息（最重要！爬虫经常有 Cookie、API Key）=====
+.env
+*.env
+config_local.py
+secrets.py
+
+# ===== 测试/覆盖率缓存 =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== 系统文件 =====
+.DS_Store           # macOS
+Thumbs.db           # Windows
+desktop.ini
+
+# ===== VSCode 工作区（可选提交，看团队习惯）=====
+.vscode/
