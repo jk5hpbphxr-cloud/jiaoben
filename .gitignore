@@ -29,3 +29,5 @@ desktop.ini
 
 # ===== VSCode 工作区（可选提交，看团队习惯）=====
 .vscode/
+
+*.png
